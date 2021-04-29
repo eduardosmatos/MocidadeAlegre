@@ -1,0 +1,112 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>G.R.C.E.S. Mocidade Alegre</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" href="images/logo_peq.png" type="image/x-icon"/>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    </head>
+
+    <header>
+        <img class="img-logo" src="images/logo_peq.png">
+        <nav id="menu">
+            <ul type="disc">
+                <li><a href="Inicio.html">Início</a></li>
+                <li><a href="Historia.html">História</a></li>
+                <li><a href="Carnavais.html">Carnavais</a></li>
+                <li><a href="Hinos.html">Hinos</a></li>
+                <li><a href="Carnaval_2019.html">Enredo 2019</a></li>
+                <li><a href="Presidente.html">Presidente</a></li>
+                <li><a href="Bateria.html">Bateria</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <body>
+        <div id="div-principal">
+            <h2>Bateria Ritmo Puro</h2>
+            <p class="ficha-tecnica">
+                <img class="img-inicio" src="images/bateria1.jpg"> <br>
+                
+        <section>
+            <div class="container">
+                <h3>Ritmistas Cadastrados
+                    <span class="badge badge-danger sup" id="numReg">0</span>
+                    <span class="pull-right">
+                        <button class="btn btn-danger" id="btInsere">Inserir</button>
+                        <button type="button" class="btn btn-danger btn-block" id="btCalcula"><i class="fa fa-calculator"></i> Calcular</button>
+                    </span>
+                </h3>
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table table-striped table-hovered" id="tabela">
+                            <thead>
+                                <tr>
+                                    <th style='width:150px'>Nome</th>
+                                    <th style='width:100px'>Idade</th>
+                                    <th style='width:200px'>E-mail</th>
+                                    <th style="width:100">Instrumento</th>
+                                    <th style='width:30px'></th>
+                                    <th style='width:30px'></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                            <tfoot>
+                            
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="modal fade" id="insere" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cadastro de usuários</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id='form' onsubmit="return false">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Nome:</label>
+                                    <input type="text" class="form-control" id="txtNome" />
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Idade:</label>
+                                    <input type="email" class="form-control" id="txtIdade" />
+                                </div>
+                                <div class="col-md-12">
+                                    <label>E-mail:</label>
+                                    <input type="text" class="form-control" id="txtEmail" />
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Instrumento:</label>
+                                    <input type="text" class="form-control" id="txtInstrumento" />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger btn-block" id="btAdd"><i class="fa fa-plus"></i> Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootbox.min.js"></script> 
+        <script type="text/javascript" src="js/codigo.js"></script>
+                
+        </div>
+    </body>
+</html>
