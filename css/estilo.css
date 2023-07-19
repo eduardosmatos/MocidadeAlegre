@@ -1,0 +1,156 @@
+* {
+    font-family: Calibri;
+}
+body {
+    background-color: lightgrey;
+}
+
+.img-logo {
+    margin-left: 200px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul{
+    background-color: #D8222F;
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    width: 1060px;
+    top: 200x;
+    left: 125px;
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px 25px 0px 25px;
+}
+
+nav#menu a {
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 20px;
+    color: white;
+    background-color: darkgreen;
+    padding: 10px;
+}
+
+p {
+    margin-left: 20px;
+    color: black;
+}
+
+img.historia_logo {
+    margin-left: 20px;
+}
+
+img.carnavais_desfile {
+    margin-left: 20px;
+}
+
+img.presidente_solange {
+    margin-left: 20px;
+}
+
+div#div-principal {
+    width: 1060px;
+    background-color: white;
+    margin: 57px auto 100px auto;
+    padding: 20px;
+}
+
+table#tabelacarnaval {
+    border: 1px solid black;
+    margin: 20px;
+    border-spacing: 0px;
+    text-align: center;
+}
+table#tabelacarnaval td {
+    border: 1px solid black;
+    padding: 10px;
+} 
+
+table#tabelacarnaval td.linhaescura{
+    background-color: lightgrey;
+}
+
+.logo-enredo {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+.titulo-enredo {
+    text-align: center;
+}
+
+.texto-enredo {
+    margin: 20px 50px 20px 50px;
+    text-align: inherit;
+    font-size: 18px;
+}
+
+.letra-samba {
+    text-align: left;
+    font-size: 18px;
+    margin: 0 50px 0 50px;
+}
+
+.clipe-samba {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.texto-presidente {
+    font-size: 18px;
+    margin: 20px 50px 20px 50px;
+    text-align: inherit;
+}
+
+.foto-presidente {
+    width: 500px;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+
+.ficha-tecnica {
+    text-align: center;
+    font-size: 18px
+}
+
+.img-inicio {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 500px;
+}
+
+.rede-social {
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 308px;
+}
+
+#redes {
+    width: 100px;
+}
+
+#redes.insta {
+    width: 70px;
+    padding-bottom: 15px;
+}
+
+#redes.youtube {
+    width: 130px;
+    padding-bottom: 13px;
+}
+
+#formulario {
+    margin-left: 70px;
+}
